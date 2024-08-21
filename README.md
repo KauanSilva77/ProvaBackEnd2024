@@ -23,7 +23,7 @@ Este projeto implementa uma API RESTful usando Node.js e TypeScript, permitindo 
 
 1. Clone o repositório:
 
-   git clone https://github.com/SeuUsuario/content-manager-api.git
+   git clone git@github.com:KauanSilva77/ProvaBackEnd2024.git
 
 Navegue até o diretório do projeto:
 -----------------------------------------------------------------------------------
@@ -92,7 +92,13 @@ src/
 
 ## Endpoints
 
-Abaixo estão os principais endpoints disponíveis na API:
+Dentro do repositório tem um arquivo: RotasProvaBackEnd.postman_collection.json é a collection das rotas para importar no postman.
+
+Como importar collection no postman:
+
+No canto superior esquerdo clique em import ao lado de new e selecione o arquivo json da collection. 
+
+Abaixo estão os endpoints disponíveis na API(Todos presentes na collection):
 
 ------------------------------------------------------------------------------------
 Usuários
