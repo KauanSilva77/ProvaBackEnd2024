@@ -62,14 +62,14 @@ Docker Compose: Ferramenta para definir e gerenciar multi-containers Docker.
 ------------------------------------------------------------------------------------
 
 ## Estrutura do Projeto
-
+------------------------------------------------------------------------------------
 src/
-│
+------------------------------------------------------------------------------------
 ├── config/
 │   ├── db.ts             # Conexão com o banco de dados MongoDB e MySQL
 │   ├── sequelize.ts      # Configuração do Sequelize
 │   └── server.ts         # Inicialização do servidor
-│
+------------------------------------------------------------------------------------
 ├── models/
 │   ├── mongo/
 │   │   ├── User.ts       # Modelo do usuário para MongoDB
@@ -79,16 +79,16 @@ src/
 │       ├── User.ts       # Modelo do usuário para MySQL
 │       ├── Post.ts       # Modelo do post para MySQL
 │       └── Comment.ts    # Modelo de comentário para MySQL
-│
+------------------------------------------------------------------------------------
 ├── routes/
 │   ├── user.ts           # Rotas relacionadas a usuários
 │   ├── post.ts           # Rotas relacionadas a posts
 │   └── comment.ts        # Rotas relacionadas a comentários
-│
+------------------------------------------------------------------------------------
 ├── utils/
 │   ├── ResponseHandler.ts  # Classe para tratamento de respostas
 │   └── RouteFunctions.ts   # Funções reutilizáveis para as rotas
-│
+------------------------------------------------------------------------------------
 └── index.ts              # Ponto de entrada da aplicação
 ------------------------------------------------------------------------------------
 
