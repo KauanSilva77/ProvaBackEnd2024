@@ -37,8 +37,7 @@ PORT=3000
 MONGO_URI=mongodb://mongo:27017/content_manager_db
 ------------------------------------------------------------------------------------
 
-Execute o comando para construir e iniciar os containers Docker:
-docker-compose up --build
+Execute o comando para construir e iniciar os containers Docker: docker-compose up --build
 A API estará disponível em http://localhost:3000.
 ------------------------------------------------------------------------------------
 
