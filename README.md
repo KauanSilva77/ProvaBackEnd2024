@@ -4,8 +4,6 @@ Este projeto implementa uma API RESTful usando Node.js e TypeScript, permitindo 
 
 ## Sumário
 
-(segurar ctrl e Clicar com o botão esquerdo do mouse para ir até o indice)
-
 - [Instalação](#instalação)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Estrutura do Projeto](#estrutura-do-projeto)
